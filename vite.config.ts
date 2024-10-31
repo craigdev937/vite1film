@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react()],
+    base: "vite1film",
     server: {
         port: 5173
     },
@@ -10,5 +11,9 @@ export default defineConfig({
         port: 8080
     }
 });
+
+
+
+
 
 
