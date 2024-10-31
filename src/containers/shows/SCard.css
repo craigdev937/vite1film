@@ -1,0 +1,26 @@
+.show {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(220px, 1fr)
+    );
+}
+
+.show__card {
+    height: 19rem;
+    width: 11rem;
+    padding: .7rem;
+    background: var(--white);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.show__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Bundler",
+        "strict": true,
+        "jsx": "react-jsx",
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "useDefineForClassFields": true,
+        "outDir": "./dist",
+        "module": "ESNext",
+        "target": "ES6",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"],
+    "references": [{"path": "./tsconfig.node.json"}]
+}
+
+
+
